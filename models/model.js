@@ -1,6 +1,6 @@
 const { Sequelize, DataTypes } = require("sequelize");
 
-const connection_string = 'postgres://postgres:AnvarjonMMVI@localhost:5432/exam'
+const connection_string = 'postgres://wkdhadgv:dsjAwVdYcZsWysThm5R7uTGDkxYa-aGn@arjuna.db.elephantsql.com/wkdhadgv' //'postgres://postgres:AnvarjonMMVI@localhost:5432/exam'
 
 const sequelize = new Sequelize(connection_string, { logging: false })
     // const sequelize = new Sequelize(connection_string)
